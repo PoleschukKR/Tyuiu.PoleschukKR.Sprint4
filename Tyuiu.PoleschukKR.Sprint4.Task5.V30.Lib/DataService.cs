@@ -21,7 +21,7 @@ namespace Tyuiu.PoleschukKR.Sprint4.Task5.V30.Lib
                 {
                     if (matrix[i,j] >= 0)
                     {
-                        res += matrix[i,j];
+                        res += matrix[i, j];
                     }
                 }
             }

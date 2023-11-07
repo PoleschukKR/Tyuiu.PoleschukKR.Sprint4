@@ -34,7 +34,7 @@ namespace Tyuiu.PoleschukKR.Sprint4.Task5.V30
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    matrix[i, j] = rnd.Next(-2, 4);
+                    matrix[i,j] = rnd.Next(-2, 4);
                 }
             }
             Console.WriteLine("Массив, заполненный случайными числами от -2 до 4:");
