@@ -12,7 +12,7 @@ namespace Tyuiu.PoleschukKR.Sprint4.Task4.V14.Test
         public void ValidCalc()
         {
             DataService ds = new DataService();
-            int[,] matrix = new int[5, 5]  { {2,4,6,1,3},
+            int[,] matrix = new int[5,5]  { {2,4,6,1,3},
                                              {1,7,7,3,2},
                                              {4,2,5,7,3},
                                              {2,1,5,6,7},

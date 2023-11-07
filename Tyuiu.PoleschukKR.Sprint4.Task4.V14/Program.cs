@@ -36,7 +36,7 @@ namespace Tyuiu.PoleschukKR.Sprint4.Task4.V14
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
                     Console.WriteLine("Введите значение i:" + i + " j:" + j);
-                    matrix[i, j] = int.Parse(Console.ReadLine());
+                    matrix[i,j] = int.Parse(Console.ReadLine());
                 }
             }
             Console.WriteLine("Получившийся массив: \n");
